@@ -1,4 +1,7 @@
-.navbar-brand {
-    float: left;
-    max-width: 200%;
-  }
+.fab{
+  font-size: 2rem;
+  padding-right:1rem;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+}
