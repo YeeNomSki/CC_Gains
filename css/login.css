@@ -1,7 +1,15 @@
 .form-container{
+  width: 100%;
   margin-top: 2rem;
   background: #fff;
   padding: 3rem;
   border-radius: 1rem;
   box-shadow: 0rem 0rem 1rem 0rem #000;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
